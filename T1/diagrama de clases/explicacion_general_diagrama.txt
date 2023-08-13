@@ -1,0 +1,23 @@
+En primer lugar, mencionar que subí un .pdf y un .png porque veo que el .png no se puede leer claramente,
+en cambio el pdf sí pero está divido en dos. Espero que con ambos se pueda entender de mejor manera el 
+diagrama :]
+
+El diagrama contempla las cuatro entidades solicitadas por enunciado, es decir, Arena; Excavador;
+Item y Torneo.
+Primero definí las relaciones de herencia que tiene Arena (clase abstracta) con los tipos
+de arenas existentes [Arena mojada, Arena rocosa, Arena magnética y Arena normal].
+Luego se repite un proceso similar tanto para los tipos de excavadores como para los tipos de items.
+Por último defino la entidad Torneo que, evidentemente, depende de todas las entidades mencionadas
+anteriormente y que es la que permite modelar el juego de manera correcta.
+
+*En los tipos de Arena no cambié ni mencioné atributos de las arenas puesto que, aunque pueden tener
+valores distintos, siguen siendo el mismo atributo que heredaron desde la clase Arena.
+(ej: rareza que en un tipo de arena es un número aleatorio entre 1 y 10, pero sigue siendo la rareza
+que heredó de Arena)
+*Respecto a las properties, traté de guiarme de lo que se mencionó en el Anuncio dado por canvas
+No utilicé directamente el método getter de las properties, por eso no quise mencionarlo 
+* En los atributos de todas las clases tampoco especifiqué de qué tipo son, pues, al ser consecuencia 
+de los archivos .csv son todos str y dentro del __init__ algunos se convierten en, por ejemplo, int
+
+PD: Espero que con este archivo sea un poco más fácil de entender lo que hice :)
+muchos ánimos ayudante lector de tareas :)

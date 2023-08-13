@@ -1,0 +1,33 @@
+Enunciado.pdf
+mapas/
+sprites/
+sounds/
+T2/mapas/*.txt
+T2/sounds/*.wav
+T2/sprites/Elementos/*.png
+T2/sprites/Fondos/*.png
+T2/sprites/Personajes/*.png
+T2/sprites/Personajes/blanco left/*.png
+T2/sprites/Personajes/blanco right/*.png
+T2/sprites/Personajes/luigi down/*.png
+T2/sprites/Personajes/luigi left/*.png
+T2/sprites/Personajes/luigi right/*.png
+T2/sprites/Personajes/luigi up/*.png
+T2/sprites/Personajes/rosado/*.png
+T2/sprites
+__pycache__
+aaa.py
+avance.py
+backednnnd.py
+boton.py
+buebito.py
+frontuseless.py
+grilla2.py
+grilla3.py
+grillagpt.py
+lastone.py
+lo.py
+mapitas.py
+onemore.py
+timer.py
+utiles.py
